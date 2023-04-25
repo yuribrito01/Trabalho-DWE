@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(72, 0, 78);
+}
+
+.container{
+    background-color: rgb(244, 238, 185);
+    border: 20px solid white;
+    border-radius: 50px;
+    padding: 50px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.card{
+    background-image: linear-gradient(rgb(255, 0, 170), rgb(144, 0, 255));
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 50px;
+    border-radius: 30px;
+    margin-right: 50px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+input{
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 15px;
+}
+
+button{
+    background-color: rgb(255, 0, 85);
+    border: 1px solid white;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
