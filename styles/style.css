@@ -6,7 +6,7 @@
 }
 
 header{
-    background-color: #f60047;
+    background-color: #f60047; 
     margin-bottom: 50px;
 }
 
@@ -35,12 +35,16 @@ header{
 
 .card{
     background-color: rgb(197, 197, 197);
+    width: 60% !important;
+    height: 600px;
     border-radius: 30px;
     margin: 20px;
+    margin-left: 150px;
 }
 
 .card-img-top{
     border-radius: 30px; 
+    height: 400px;
 }
 
 footer{
@@ -54,3 +58,62 @@ a{
     text-decoration: none;
     color:white;
 }
+
+.modal-dialog{
+    margin-left: 20%;
+}
+
+.modal-content{
+    width: 180%;
+    margin-right: 500px;
+}
+
+.img-fluid{
+    width: 500px;
+    height: 300px;
+}
+
+@media screen and (max-height: 800px){
+    .image{
+        width: 600px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .image{
+        width: 600px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .image{
+        width: 400px;
+        height: 300px;
+        margin-top: 50px;
+    }
+
+    .text{
+        font-size: 100%;
+    }
+
+    .modal-dialog{
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .text{
+        width: 200%;
+    }
+
+    .modal-dialog{
+        margin-left: 5%;
+    }
+
+    .modal-content{
+        width: 100%;
+    }
+}
+    
