@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografias Afrocentradas</title>
+    <link rel="icon" type="image/x-icon" href="./images/Rustic_Printed-removebg-preview.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <img src="./images/Rustic_Printed-removebg-preview.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-top">
+        <div class="navbar-brand">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"  style="color: #f30661;">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"  style="color: #f30661;">Favoritos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./forms.html"  style="color: #f30661;">Contato</a>
+            </li>
+            <li class="nav-item nav-pills">
+              <a class="nav-link active" href="./login.html" 
+              style="background-color: #f30661">Login</a>
+            </li>
+          </ul>
+        </div>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+          <button class="btn btn-outline-danger" type="submit">Pesquisar</button>
+        </form>
+       
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Favoritos</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="./forms.html">Contato</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container">
+        <div>
+          <p class="text">Todo ano a câmara municipal de
+            Campinas homenageia alguém da
+            comunidade negra com o diploma Zumbi
+            dos Palmares. É uma homenagem para
+            aquelas pessoas que contribuíram para o
+            desenvolvimento da comunidade negra
+            em Campinas</p>
+          <button type="button" class="text-white button"><a href="https://portal.campinas.sp.gov.br/noticia/16417">Saiba Mais</a></button>
+        </div>
+        <div>
+          <img src="./images/zumbi.png" class="image">
+        </div>
+      </div>
+    </header>
+    
+    <div class="row row-cols-1 row-cols-md-2 g-8 cards">
+      <div class="col">
+        <div class="card" style="width: 30rem;">
+          <img src="./images/milton_santos.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Milton Santos</h5>
+            <p class="card-text">O maior geógrafo do Brasil ficou conhecido internacionalmente e chegou a dar aulas em uma série de universidades estrangeiras.</p>
+            <button class="button" type="button" data-bs-toggle="modal" data-bs-target="#modal1">Saiba Mais</button>
+            <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modalLabel1" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalLabel1">Milton Santos</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./images/milton_santos.webp" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">(1926-2001)</h5>
+                        <p class="card-text">O maior geógrafo do Brasil ficou conhecido internacionalmente e chegou a dar aulas em uma série de universidades estrangeiras.
+
+                          Milton Santos nasceu na Bahia e, como era filho de professores, começou a dar aulas desde cedo, ainda com 13 anos. Depois de se formar em direito, fez doutorado na área que sempre despertou a sua paixão: a geografia.
+                          
+                          Durante a ditadura militar foi perseguido no Brasil e se exilou na França. Reconhecido pelo seu trabalho, Milton Santos recebeu o título de doutor honoris causa por mais de 20 instituições no Brasil e no exterior.
+                          
+                          Ele foi também o único brasileiro a receber o prêmio Vautrin Lud (o Nobel da Geografia), em 1994.  </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Curtir</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 30rem;">
+          <img src="./images/carolina.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Carolina Maria de Jesus</h5>
+            <p class="card-text">Uma importante escritora brasileira, Carolina Maria de Jesus foi autora de uma das grandes obras da nossa literatura: Quarto de Despejo: diário de uma favelada.</p>
+            <button class="button" type="button" data-bs-toggle="modal" data-bs-target="#modal2">Saiba Mais</button>
+            <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modalLabel2" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalLabel2">Carolina Maria de Jesus</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./images/carolina.webp" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">(1914-1977)</h5>
+                        <p class="card-text">Uma importante escritora brasileira, Carolina Maria de Jesus foi autora de uma das grandes obras da nossa literatura: Quarto de Despejo: diário de uma favelada.
+
+                          Com uma história de vida difícil, Carolina nasceu no interior de Minas Gerais, era neta de escravizados e filha de uma lavadeira analfabeta. 
+                          
+                          A família, numerosa (Carolina tinha sete irmãos), passou muita necessidade. A jovem só pode estudar porque teve a ajuda de uma das patroas da mãe. Quando se mudou com a família para São Paulo, Carolina trabalhou como lavradora, empregada doméstica, faxineira e catadora de papel. 
+                          
+                          Com três filhos, ela foi mãe solo e passou por momentos dramáticos vivendo na favela do Canindé. Nas horas livres, Carolina escrevia e, em 1941, teve um poema publicado no jornal Folha da Manhã. Um dos repórteres descobriu o seu talento e a ajudou a publicar o seu diário anos mais tarde.
+                          
+                          Lançado em 1960, o livro autobiográfico fez tanto sucesso de público como de crítica, sendo publicado em muitos países e traduzido em 13 idiomas.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Curtir</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 30rem;">
+          <img src="./images/pixinguinha_novo_c.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pixinguinha</h5>
+            <p class="card-text">Mestre do choro, o carioca Alfredo da Rocha Vianna Filho, conhecido como Pixinguinha, foi um músico extraordinário.</p>
+            <button class="button" type="button" data-bs-toggle="modal" data-bs-target="#modal3">Saiba Mais</button>
+            <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modalLabel3" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalLabel3">Pixinguinha</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./images/pixinguinha_novo_c.webp" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">(1897-1973)</h5>
+                        <p class="card-text">Mestre do choro, o carioca Alfredo da Rocha Vianna Filho, conhecido como Pixinguinha, foi um músico extraordinário. É dele a música Carinhoso, que permanece no imaginário do brasileiro até os dias de hoje.
+
+                          Filho de um flautista, começou a compor com apenas treze anos. Aos quinze já era membro da orquestra do Teatro Rio Branco. Pixinguinha tocava flauta, cavaquinho, saxofone e uma série de instrumentos.
+                          
+                          Além de ter feito sucesso no Brasil, o músico fez uma série de turnês no exterior.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Curtir</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 30rem;">
+          <img src="./images/grande_otelo_novo_c.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Grande Otelo</h5>
+            <p class="card-text">O ator Grande Otelo foi um dos maiores das artes cênicas brasileira no século XX. Os seus trabalhos, especialmente com Oscarito, fizeram muito sucesso no cinema.</p>
+            <button class="button" type="button" data-bs-toggle="modal" data-bs-target="#modal4">Saiba Mais</button>
+            <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modalLabel4" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalLabel4">Grande Otelo</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./images/grande_otelo_novo_c.webp" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">(1915-1993)</h5>
+                        <p class="card-text">O ator Grande Otelo foi um dos maiores das artes cênicas brasileira no século XX. Os seus trabalhos, especialmente com Oscarito, fizeram muito sucesso no cinema. 
+
+                          Sebastião Bernardes de Souza Prata nasceu em Minas Gerais e começou a atuar em festas populares. Quando tinha sete anos participou de uma apresentação de circo e ganhou de vez o gosto pela atuação.
+                          
+                          Depois de ter ficado órfão de pai se mudou para São Paulo e entrou na Companhia de Teatro  Mambembe. A partir de então não parou mais de trabalhar: atuou nas grandes estações de rádio e nos principais canais de televisão do país, além de ter protagonizado uma série de filmes, como o importante Macunaíma, em 1969.
+                          
+                          Grande Otelo protagonizou um marco importante: os negros não podiam entrar pela porta da frente nos cassinos, o que só foi superado depois que Grande Otelo foi contratado para trabalhar como ator em um deles.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Curtir</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 30rem;">
+          <img src="./images/gilberto_gil_c.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Gilberto Gil</h5>
+            <p class="card-text">Cantor, músico, instrumentista e ministro da cultura, Gilberto Gil foi importante de muitas formas para o Brasil.</p>
+            <button class="button" type="button" data-bs-toggle="modal" data-bs-target="#modal5">Saiba Mais</button>
+            <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modalLabel5" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalLabel5">Gilberto Gil</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./images/gilberto_gil_c.webp" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">(1942)</h5>
+                        <p class="card-text">Cantor, músico, instrumentista e ministro da cultura, Gilberto Gil foi importante de muitas formas para o Brasil.
+
+                          A música entrou desde cedo na vida do artista - já com nove anos, Gil começou a estudar música na Academia Regina. Em 1963 conheceu outros jovens talentosos: Caetano Veloso, Maria Bethânia, Tom Zé e Gal Costa. Juntos com outros artistas criaram o Movimento Tropicalista.
+                          
+                          Gilberto Gil participou dos históricos Festivais da Canção e foi um contestador dentro da sua geração.
+                          
+                          Com a ditadura, em 1969, foi obrigado a se exilar e só retornou ao Brasil em 1972.
+                          
+                          Na política, Gil trabalhou como vereador na Câmara Municipal de Salvador (1989-1992) e em 2003 foi nomeado para Ministro da Cultura (2003-2008).</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Curtir</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 30rem;">
+          <img src="./images/conceici_ai_o_evaristo_c.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Conceição Evaristo</h5>
+            <p class="card-text">A escritora e professora Conceição Evaristo é um dos maiores nomes da literatura brasileira contemporânea, sendo uma das grandes ativistas do movimento negro.</p>
+            <button class="button" type="button" data-bs-toggle="modal" data-bs-target="#modal6">Saiba Mais</button>
+            <div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="modalLabel6" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalLabel6">Conceição Evaristo</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./images/conceici_ai_o_evaristo_c.webp" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">(1946)</h5>
+                        <p class="card-text">A escritora e professora Conceição Evaristo é um dos maiores nomes da literatura brasileira contemporânea, sendo uma das grandes ativistas do movimento negro. 
+
+                          As suas publicações vão desde poemas, ensaios e até mesmo ficção. De origem humilde, Conceição é filha de uma lavadeira e não teve contato com o pai, sendo criada pelo padrasto, que era pedreiro. 
+                          
+                          A escritora começou a trabalhar como empregada doméstica aos oito anos de idade. Formada em Letras, Conceição fez Mestrado e Doutorado e deu aulas em escolas e na Universidade. Em 2018 ganhou o Prêmio de Literatura do Governo de Minas Gerais. </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Curtir</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 30rem;">
+          <img src="./images/pela_c.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pelé</h5>
+            <p class="card-text">Considerado o maior jogador de futebol do mundo, Edson Arantes do Nascimento, o Pelé, nasceu em Três Corações (MG) em 1940.</p>
+            <button class="button" type="button" data-bs-toggle="modal" data-bs-target="#modal7">Saiba Mais</button>
+            <div class="modal fade" id="modal7" tabindex="-1" aria-labelledby="modalLabel7" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalLabel7">Pelé</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./images/pela_c.webp" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">(1940-2022)</h5>
+                        <p class="card-text">Considerado o maior jogador de futebol do mundo, Edson Arantes do Nascimento, o Pelé, nasceu em Três Corações (MG) em 1940. Sua infância foi muito pobre e ele aprendeu futebol com seu pai, que também foi jogador.
+
+                          Começando em pequenos times, Pelé foi crescendo na carreira, até que na década de 50 ingressa no Santos Futebol Clube.
+                          
+                          Com uma habilidade fora do comum, Pelé integrou a seleção brasileira nas copas do mundo de 1958, 1962 e 1970, das quais o Brasil saiu vitorioso.
+                          
+                          É eleito o jogador do século em 2000 pela Federação Internacional de História e Estatísticas do Futebol, além de ter recebido muitos prêmios que reiteram sua importância no futebol.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Curtir</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 30rem;">
+          <img src="./images/la_lia_gonzalez_by_cezar_loureiro_c.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Lélia Gonzales</h5>
+            <p class="card-text">Umas das maiores vozes femininas na luta pelos direitos do povo negro é a de Lélia Gonzales. </p>
+            <button class="button" type="button" data-bs-toggle="modal" data-bs-target="#modal8">Saiba Mais</button>            
+            <div class="modal fade" id="modal8" tabindex="-1" aria-labelledby="modalLabel8" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modalLabel8">Lélia Gonzales</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./images/la_lia_gonzalez_by_cezar_loureiro_c.webp" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">(1935-1994)</h5>
+                        <p class="card-text">Umas das maiores vozes femininas na luta pelos direitos do povo negro é a de Lélia Gonzales. A ativista e intelectual se dedicou aos estudos de gênero e raça no Brasil e se tonou uma grande referência no país para pensar sobre o lugar que a mulher negra ocupa na sociedade.
+
+                          Nascida em Belo Horizonte (MG) em 1935, veio de uma família pobre e tinha muitos irmãos. Se estabeleceu no Rio de Janeiro, onde trabalhou como empregada doméstica e babá. Conseguiu, com dificuldade, se formar em História e Filosofia na UFRJ.
+                          
+                          Deu aulas em universidades e no ensino médio. Participou ativamente do movimento negro, em diversas organizações sociais, e contribuiu também com artigos em jornais e revistas.</p>
+                      </div>
+                    </div> 
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Curtir</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Projeto criado e desenvolvido por: Rodrigo Secco Dias Nogueira, Rebeca e Yuri</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+</body>
+</html>
